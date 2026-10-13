@@ -1,3 +1,50 @@
+# ---- datasets (large, regenerate with convert_to_yolo.py) ----
 data/
 yolo_dataset/
+
+# ---- model weights & exports ----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+weights/
 checkpoints/
+
+# ---- training artifacts ----
+runs/
+*.cache
+wandb/
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# ---- tooling / editors ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+
+# ---- os ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- app output ----
+*_pred.jpg
+*_pred.png

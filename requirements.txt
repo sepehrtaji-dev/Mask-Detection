@@ -1,0 +1,13 @@
+# Core
+ultralytics>=8.4.172
+torch>=2.14.0
+torchvision>=0.29.0
+numpy>=2.0.0
+pillow>=10.0.0
+
+# Desktop UI (glassmorphism app)
+PySide6>=6.11.0
+
+# Export / inference acceleration
+onnx>=1.16.0
+onnxruntime>=1.18.0
